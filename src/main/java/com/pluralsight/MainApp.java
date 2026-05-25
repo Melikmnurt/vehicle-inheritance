@@ -5,40 +5,16 @@ public class MainApp {
     public static void main(String[] args) {
 
         // Create a Moped object
-        Moped slowRide = new Moped();
-
-        // Set values for the moped
-        slowRide.setColor("Red");
-        slowRide.setFuelCapacity(5);
-        slowRide.setNumberOfPassengers(1);
-        slowRide.setCargoCapacity(10);
+        Moped slowRide = new Moped("Red", 1, 10, 5);
 
         // Create a Car object
-        Car familyCar = new Car();
-
-        // Set values for the car
-        familyCar.setColor("Blue");
-        familyCar.setFuelCapacity(15);
-        familyCar.setNumberOfPassengers(5);
-        familyCar.setCargoCapacity(25);
+        Car familyCar = new Car("Blue", 5, 25, 15);
 
         // Create a SemiTruck object
-        SemiTruck bigRig = new SemiTruck();
-
-        // Set values for the semi truck
-        bigRig.setColor("White");
-        bigRig.setFuelCapacity(120);
-        bigRig.setNumberOfPassengers(2);
-        bigRig.setCargoCapacity(5000);
+        SemiTruck bigRig = new SemiTruck("White", 2, 5000, 120);
 
         // Create a Hovercraft object
-        Hovercraft hovercraft = new Hovercraft();
-
-        // Set values for the hovercraft
-        hovercraft.setColor("Silver");
-        hovercraft.setFuelCapacity(60);
-        hovercraft.setNumberOfPassengers(8);
-        hovercraft.setCargoCapacity(1000);
+        Hovercraft hovercraft = new Hovercraft("Silver", 8, 1000, 60);
 
         // Display Moped information
         System.out.println("Moped Information");
