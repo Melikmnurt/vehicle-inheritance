@@ -1,4 +1,6 @@
 package com.pluralsight;
 
-public class SemiTruck {
+// SemiTruck inherits from Vehicle
+public class SemiTruck extends Vehicle {
+
 }

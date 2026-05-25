@@ -1,4 +1,6 @@
 package com.pluralsight;
 
-public class Hovercraft {
+// Hovercraft inherits from Vehicle
+public class Hovercraft extends Vehicle {
+
 }
