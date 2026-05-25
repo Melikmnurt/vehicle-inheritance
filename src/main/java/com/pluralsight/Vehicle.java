@@ -15,6 +15,16 @@ public class Vehicle {
     // Fuel tank capacity
     private int fuelCapacity;
 
+    // Constructor for Vehicle
+    public Vehicle(String color, int numberOfPassengers,
+                   int cargoCapacity, int fuelCapacity) {
+
+        this.color = color;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+    }
+
     // Getter for color
     public String getColor() {
         return color;
